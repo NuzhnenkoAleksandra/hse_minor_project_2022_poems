@@ -1,0 +1,23 @@
+{% extends "base_poems.html" %}
+{% block title %}Index{% endblock %}
+{% block main %}
+    <div style="margin: 50px">
+       <h4 align="center">На этом сайте вы можете сгенерировать стишок-порошок.</h4>
+	</div>
+	
+	<div style="width: 30%; margin: 50px auto">
+	   <form action="/" method='get' target='_self'>
+			<input type="text" class="form-control" name="first_word" placeholder="Введите первое слово">
+			<input class="btn btn-primary" type="Submit" name="submit" value="Сгенерировать">
+			
+	   </form>
+	</div>
+	
+	<div style="width: 50%; margin: auto">
+	   {% for line in poem %}
+	   <h6> {{ line }} </h6>
+		
+		{% endfor %}
+    </div>
+	
+{% endblock %}
