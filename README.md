@@ -25,9 +25,10 @@ semant_model.py - подготовка текстов для обучения м
 rythm_semant.py - создание стишков
 app_poems.py - взаимодействие с flask
 
-dct_word_stressed.txt, dct_word_stressed.py - созданный словарь {слово с ударением : слово без ударения}
-dict_rythm_patt_words.txt, dict_rythm_patt_words.py - созданный словарь {шаблон слова : список подходящих слов}
+архив dct_word_stressed.rar: dct_word_stressed.txt, dct_word_stressed.py - созданный словарь {слово с ударением : слово без ударения}
+архив dict_rythm_patt_words.rar: dict_rythm_patt_words.txt, dict_rythm_patt_words.py - созданный словарь {шаблон слова : список подходящих слов}
 
+books_model.rar - архив с книгами, на которых училась модель
 model_sem.bin - обученная модель
 
 папка templates:
